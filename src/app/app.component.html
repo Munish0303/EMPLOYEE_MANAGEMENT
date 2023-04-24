@@ -1,0 +1,53 @@
+<nav [ngClass]="'navbar'">
+
+  <div [ngClass]="'tools'">
+    <div [ngClass]="'toolh'">TOOLS</div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd1'"> 
+        <img src="assets\dashboard.png"> 
+        <span [ngClass]="'linkers'" routerLink="/">Dashboard</span>
+      </div>
+    </div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd2'"> 
+        <img src="assets\payroll.png">
+        <span [ngClass]="'linkers'" routerLink="/payroll">Payroll Generator</span>
+      </div>
+    </div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd3'"> 
+        <img src="assets\workleave.png">
+        <span [ngClass]="'linkers'" routerLink="/workleaves">Workleaves</span>
+      </div>
+    </div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd4'"> 
+        <img id="img4" src="assets\people.png">
+        <span [ngClass]="'linkers'" routerLink="/employee">People</span>
+      </div>
+    </div>
+  </div>
+
+  <div [ngClass]="'tools'">
+    <div [ngClass]="'otherh'">OTHER</div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd5'"> 
+        <img id="img5" src="assets\calendar2.png">
+        <span [ngClass]="'linkers'" routerLink="/calendar">Calendar</span>
+      </div>
+    </div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd6'"> 
+        <img id="img5" src="assets\support.png">
+        <span [ngClass]="'linkers'" routerLink="/support">Supoort</span>
+      </div>
+    </div>
+    <div [ngClass]="'rowroute'">
+      <div [ngClass]="'imgd7'"> 
+        <img id="img6" src="assets\setting.png">
+        <span [ngClass]="'linkers'" routerLink="/settings">Settings</span>
+      </div>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

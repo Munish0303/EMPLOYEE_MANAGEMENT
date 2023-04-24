@@ -1,0 +1,36 @@
+.topelement
+{
+    width: auto;
+    padding-left: 190px;
+    border-bottom: 1px solid black;
+}
+
+.img-cont
+{
+    height: 50px;
+    object-position: center;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.profile
+{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hello-user
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.bodyelem
+{
+    background-color: rgb(230, 238, 250);
+    width: auto;
+    height: 600px;
+}

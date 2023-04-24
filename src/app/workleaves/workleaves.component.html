@@ -1,0 +1,55 @@
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<div [ngClass]="'topelement'">
+    <div [ngClass]="'profile'">
+        <img [ngClass]="'img-cont'" src="https://i.insider.com/5ba15375e361c01c008b5cf7?width=700">
+        <div [ngClass]="'hello-user'">Hello Munish</div>
+    </div>
+</div>
+
+<div [ngClass]="'bodyelem'">
+
+    <div [ngClass]="'emptitle'">
+        LEAVES
+    </div>
+    <div [ngClass]="'container'">
+        <div [ngClass]="'container-row-title'">
+            <div [ngClass]="'emp'">
+                Employee
+            </div>
+            <div [ngClass]="'dept'">
+                Department
+            </div>
+            <div [ngClass]="'salary'">
+                Dates
+            </div>
+            <div [ngClass]="'wr'">
+                Reason
+            </div>
+            <div [ngClass]="'decide'">
+                Decision
+            </div>
+        </div>
+        <div *ngFor="let i of wl; let a=index;" [ngClass]="'container-row'">
+            <div [ngClass]="'empname'">
+                {{i.name}}
+            </div>
+            <div [ngClass]="'deptname'">
+                {{i.dept}}
+            </div>
+            <div [ngClass]="'salval'">
+                {{i.dates}}
+            </div>
+            <div [ngClass]="'wrcirc'">
+                {{i.reason}}
+            </div>
+            <div [ngClass]="'btns'">
+                <button [ngClass]="'btn1'" (click)="f3(a)">
+                    DENY
+                </button>
+                <button [ngClass]="'btn2'" (click)="f3(a)">
+                    APPROVE
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

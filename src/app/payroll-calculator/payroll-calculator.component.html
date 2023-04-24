@@ -1,0 +1,66 @@
+<div [ngClass]="'topelement'">
+    <div [ngClass]="'profile'">
+        <img [ngClass]="'img-cont'" src="https://i.insider.com/5ba15375e361c01c008b5cf7?width=700" >
+        <div [ngClass]="'hello-user'">Hello Munish</div>
+    </div>
+</div>
+
+<div [ngClass]="'bodyelem'">
+    <div [ngClass]="'selemp'">
+        SELECT EMPLOYEE
+    </div>
+    <select [ngClass]="'choose-emp'" #emp [(ngModel)]="myemp">
+        <option value="Max Verstappen">Max Verstappen</option>
+        <option value="Iman Gadhzi">Iman Gadhzi</option>
+        <option value="Samantha Woods">Samantha Woods</option>
+        <option value="Chris Hearn">Chris Hearn</option>
+        <option value="Shirly Smith">Shirly Smith</option>
+    </select>
+
+
+
+    <div [ngClass]="'inputs'">
+        <div [ngClass]="'inp1'">
+            <div [ngClass]="'box1'">
+                <div [ngClass]="'boxtitle1'">
+                    PRESENT DAYS
+                </div>
+                <input  [ngClass]="'textbox'"   type="text" [(ngModel)]="present" >
+            </div>
+        </div>
+
+        <div [ngClass]="'inp2'">
+            <div [ngClass]="'box1'">
+                <div [ngClass]="'boxtitle2'">
+                    DAILY WAGE
+                </div>
+                <input [ngClass]="'textbox'" type="text" [(ngModel)]="dailywage" >
+            </div>
+        </div>
+
+        <div [ngClass]="'inp2'">
+            <div [ngClass]="'box1'">
+                <div [ngClass]="'boxtitle3'">
+                    BONUS
+                </div>
+                <input [ngClass]="'textbox'" type="text" [(ngModel)]="bonus">
+            </div>
+        </div>
+    </div>
+
+    <div [ngClass]="'btnbox'">
+        <button [ngClass]="'btn'" (click)="Calpay()">GENERATE</button>
+    </div>
+
+    <div [ngClass]="'op1'">
+        <div [ngClass]="'box2'">
+            <div [ngClass]="'boxtitle4'">
+                FINAL SALARY
+            </div>
+            <div [ngClass]="'finalsal'">
+                {{salary}}
+            </div>
+        </div>
+    </div>
+
+</div>

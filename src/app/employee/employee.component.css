@@ -1,0 +1,132 @@
+.topelement
+{
+    width: auto;
+    padding-left: 190px;
+    border-bottom: 1px solid black;
+}
+
+.img-cont
+{
+    height: 50px;
+    object-position: center;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.profile
+{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hello-user
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.emptitle
+{
+    margin-left: 100px;
+    padding-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.bodyelem
+{
+    background-color: rgb(230, 238, 250);
+    width: auto;
+    height:600px
+}
+
+.container
+{
+    margin-left: 550px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+.container-row-title
+{
+    display: flex;
+    color: rgb(162, 159, 159);
+    height: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.container-row
+{
+    display: flex;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.emp
+{
+    padding-left: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.pfp
+{
+    padding-left: 20px;
+    width: 50px;
+}
+
+.empname
+{
+    width: 140px;
+}
+
+.dept
+{
+    width: 150px;
+}
+
+.deptname
+{
+    padding-left: 10px;
+    width: 140px;
+}
+
+.salary
+{
+    width: 80px;
+}
+
+.salval
+{
+    padding-left: 10px;
+    width: 70px;
+}
+
+.wr
+{
+    width:70px;
+    padding-right: 10px;
+}
+
+.wrcirc
+{
+    padding-left: 10px;
+    width:60px;
+}
+
+.img1
+{
+    height: 40px;
+    margin-left: -7px;
+    margin-top: -10px;
+    border-radius: 25px;
+    border: 1px solid black;
+}

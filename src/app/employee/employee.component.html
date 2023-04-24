@@ -1,0 +1,115 @@
+<div [ngClass]="'topelement'">
+    <div [ngClass]="'profile'">
+        <img [ngClass]="'img-cont'" src="https://i.insider.com/5ba15375e361c01c008b5cf7?width=700">
+        <div [ngClass]="'hello-user'">Hello Munish</div>
+    </div>
+</div>
+
+<div [ngClass]="'bodyelem'">
+
+
+    <div [ngClass]="'emptitle'">
+        EMPLOYEE LIST
+    </div>
+    <div [ngClass]="'container'">
+        <div [ngClass]="'container-row-title'">
+            <div [ngClass]="'emp'">
+                Employee
+            </div>
+            <div [ngClass]="'dept'">
+                Department
+            </div>
+            <div [ngClass]="'salary'">
+                Salary
+            </div>
+            <div [ngClass]="'wr'">
+                Review
+            </div>
+        </div>
+        <div [ngClass]="'container-row'">
+            <div [ngClass]="'pfp'">
+                <img [ngClass]="'img1'" src="assets\memoji.jpg">
+            </div>
+            <div [ngClass]="'empname'">
+                Max Verstappen
+            </div>
+            <div [ngClass]="'deptname'">
+                HR
+            </div>
+            <div [ngClass]="'salval'">
+                {{empdata[0].salary}}
+            </div>
+            <div [ngClass]="'wrcirc'">
+                Pending
+            </div>
+        </div>
+        <div [ngClass]="'container-row'">
+            <div [ngClass]="'pfp'">
+                <img [ngClass]="'img1'" src="assets\memoji2.jpeg">
+            </div>
+            <div [ngClass]="'empname'">
+                Iman Gadhzi
+            </div>
+            <div [ngClass]="'deptname'">
+                UI/UX
+            </div>
+            <div [ngClass]="'salval'">
+                {{empdata[1].salary}}
+            </div>
+            <div [ngClass]="'wrcirc'">
+                Pending
+            </div>
+        </div>
+        <div [ngClass]="'container-row'">
+            <div [ngClass]="'pfp'">
+                <img [ngClass]="'img1'" src="assets\memoji3.jpeg">
+            </div>
+            <div [ngClass]="'empname'">
+                Samantha Woods
+            </div>
+            <div [ngClass]="'deptname'">
+                Marketing
+            </div>
+            <div [ngClass]="'salval'">
+                {{empdata[2].salary}}
+            </div>
+            <div [ngClass]="'wrcirc'">
+                Pending
+            </div>
+        </div>
+        <div [ngClass]="'container-row'">
+            <div [ngClass]="'pfp'">
+                <img [ngClass]="'img1'" src="assets\memoji4.jpeg">
+            </div>
+            <div [ngClass]="'empname'">
+                Chris Hearn
+            </div>
+            <div [ngClass]="'deptname'">
+                Sales
+            </div>
+            <div [ngClass]="'salval'">
+                {{empdata[3].salary}}
+            </div>
+            <div [ngClass]="'wrcirc'">
+                Pending
+            </div>
+        </div>
+        <div [ngClass]="'container-row'">
+            <div [ngClass]="'pfp'">
+                <img [ngClass]="'img1'" src="assets\memoji5.jpeg">
+            </div>
+            <div [ngClass]="'empname'">
+                Shirly Smith
+            </div>
+            <div [ngClass]="'deptname'">
+                UI/UX
+            </div>
+            <div [ngClass]="'salval'">
+                {{empdata[4].salary}}
+            </div>
+            <div [ngClass]="'wrcirc'">
+                Pending
+            </div>
+        </div>
+    </div>
+</div>

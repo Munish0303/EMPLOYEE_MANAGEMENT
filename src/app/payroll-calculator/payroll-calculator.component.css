@@ -1,0 +1,166 @@
+.topelement
+{
+    width: auto;
+    padding-left: 190px;
+    border-bottom: 1px solid black;
+}
+
+.img-cont
+{
+    height: 50px;
+    object-position: center;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.profile
+{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hello-user
+{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.bodyelem
+{
+    background-color: rgb(230, 238, 250);
+    width: auto;
+    height: 600px;
+}
+
+.selemp
+{
+    padding-left: 630px;
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+.choose-emp
+{
+    margin-left: 630px;
+    padding-left: 300px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.inp1
+{
+    padding-left: 532px;
+}
+.inp2
+{
+    padding-left: 40px;
+}
+.op1
+{
+    padding-left: 690px;
+}
+
+.out
+{
+    font-weight: 800;
+}
+
+.emprow
+{
+    display: flex;
+}
+
+.inputs
+{
+    margin-top: 30px;
+    display: flex;
+}
+
+.box1
+{
+    margin-top: 20px;
+    height: 120px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.btn
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btnbox
+{
+    margin-top: 30px;
+    margin-left: 765px;
+}
+
+.textbox
+{
+   width: 150px;
+   height: 20px;
+   margin-top: 35px;
+   margin-left: 12px;
+   border-radius: 20px;
+   text-align: center;
+}
+
+.boxtitle1
+{
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.boxtitle2
+{
+    padding-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.boxtitle3
+{
+    padding-left: 55px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.boxtitle4
+{
+    padding-left: 80px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.box2
+{
+    margin-top: 20px;
+    height: 120px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.finalsal
+{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
